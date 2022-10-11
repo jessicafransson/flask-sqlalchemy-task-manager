@@ -11,4 +11,20 @@
     </div>
 </div>
 
+<div class="row">
+    {% for category in categories %}
+    <div class="col s12 m6 l3">
+        <div class="card light-blue darken-4 center-align">
+            <div class="card-content white-text">
+                <span class="card-title">{{ category.category_name }}</span>
+            </div>
+            <div class="card-action">
+                <a href="#" class="btn green accent-4">Edit</a>
+                <a href="#" class="btn red">Delete</a>
+            </div>
+        </div>
+    </div>
+    {% endfor %}
+</div>
+
 {% endblock %}
