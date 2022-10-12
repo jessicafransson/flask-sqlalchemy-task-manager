@@ -1,3 +1,20 @@
+## This is a code-along project before starting my fourth Project with Code Institute.
+
+For this to work properly there must be some updates done; 
+
+- type set_pg in the terminal
+- type psql in the terminal
+- type "from taskmanager import db"
+- type "db.create_all()
+
+and then hit exit
+
+- then type python3 run.py in terminal to open preview in browser. 
+
+All done, you're now ready to see this project! 
+
+
+
 ![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
 
 Welcome Jessica Fransson,
